@@ -1,0 +1,24 @@
+/* Grundlegendes Styling für die Navigation */
+nav {
+  background-color: #333;
+}
+
+.menu {
+  list-style: none; /* Entfernt die Aufzählungspunkte */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Ordnet die Menüpunkte nebeneinander an */
+  gap: 20px;     /* Abstand zwischen den Punkten */
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu a:hover,
+.menu a:focus-visible {
+  background-color: #555; /* Visuelles Feedback beim Hovern oder per Tastatur */
+}
